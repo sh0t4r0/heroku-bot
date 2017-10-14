@@ -40,4 +40,4 @@ bot.on('ready', () => {
     bot.user.setGame('with K4n3d4')
 })
 
-client.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
