@@ -33,6 +33,16 @@ bot.on('message', (message) => {
     {
         message.sendMessage('Pong? Ta tudo funcionando, esquizofrênico do caralho...')
     }
+    //BR
+    if(message.author.id == "200240729103007744" && message.content == "HH.kampff2049")
+    {
+        message.sendMessage('A system of cells interlinked within Cells interlinked within cells interlinked Within one stem. And dreadfully distinct Against the dark, a tall white fountain played.')
+    }
+    
+    if(message.author.id == "200240729103007744" && message.content == "HH.kampff2019")
+    {
+        message.sendMessage('I ve seen things you people wouldnt believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain. Time to die.')
+    }
     
 });
 
